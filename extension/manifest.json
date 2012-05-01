@@ -1,0 +1,12 @@
+{
+  "name": "Link Allmusic.com to Tomahawk",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add Tomahawk links to tracks on allmusic.com pages.",
+  "content_scripts" : [
+    {
+      "matches" : ["http://beta.allmusic.com/album/*"],
+      "js" : ["script.js"]
+    }
+  ]
+}
